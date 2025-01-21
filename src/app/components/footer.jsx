@@ -112,12 +112,12 @@ const Footer = () => {
                 <div className="flex gap-4 justify-center items-start">
                   <RiMailFill className=" md:h-[20px] md:w-[20px]  text-white rounded-lg" />
                   <div className="flex flex-col">
-                    <Link href="https://mail.google.com/mail/">
+                    <Link href="mailto:HR@redinexcontractor.com">
                       <p className="text-[#e7e7e7] hover:text-[#fab731]  font-[400] md:text-[16px] max-md:text-[12px]">
                         HR@redinexcontractor.com
                       </p>
                     </Link>
-                    <Link href="https://mail.google.com/mail/">
+                    <Link href="mailto:PROJECT@redinexcontractor.com">
                       <p className="text-[#e7e7e7] hover:text-[#fab731] font-[400] md:text-[16px] max-md:text-[12px]">
                         PROJECT@redinexcontractor.com
                       </p>

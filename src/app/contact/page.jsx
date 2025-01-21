@@ -33,20 +33,24 @@ const Page = () => {
                     <IoCall className="text-4xl bg-[#fab731] text-white p-2 rounded-lg" />
                     <div>
                         <p className="md:text-[22px] font-[600] text-[#000]">Phone</p>
-                        <Link href='' className='flex flex-col'>
+                       <div className='flex flex-col'>
+                       <Link href='tel:+91 7667 877 567'>
                         <p className="text-[#667479] hover:text-[#00171F] md:text-[16px] font-[400] hover:font-[600] cursor-pointer max-md:text-[14px] md:mt-1.5 max-md:mt-1">+91 7667 877 567</p>
+                        </Link>
+                        <Link href='tel:+91 9867 909 341'>
                         <p className="text-[#667479] hover:text-[#00171F] md:text-[16px] font-[400] hover:font-[600] cursor-pointer max-md:text-[14px] md:mt-1.5 max-md:mt-1">+91 9867 909 341</p> 
                         </Link>
+                       </div>
                     </div>
                 </div>
                 <div className="flex md:gap-6 gap-4 md:my-10 sm:my-8 my-6">
                     <IoMail className="text-4xl bg-[#fab731] text-white p-2 rounded-lg" />
                     <div>
                         <p className="md:text-[22px] font-[600] text-[#000]">Email</p>
-                       <Link href='https://mail.google.com/mail/'>
+                       <Link href='mailto:HR@redinexcontractor.com'>
                        <p className="text-[#667479] hover:text-[#00171F] md:text-[16px] font-[400] hover:font-[600] cursor-pointer max-md:text-[14px] md:mt-1.5 max-md:mt-1">HR@redinexcontractor.com</p>
                        </Link>
-                       <Link href='https://mail.google.com/mail/'>
+                       <Link href='mailto:PROJECT@redinexcontractor.com'>
                        <p className="text-[#667479] hover:text-[#00171F] md:text-[16px] font-[400] hover:font-[600] cursor-pointer max-md:text-[14px] md:mt-1.5 max-md:mt-1">PROJECT@redinexcontractor.com</p>
                        </Link>
                     </div>
