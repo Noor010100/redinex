@@ -87,7 +87,7 @@ const HomeContact = () => {
                 {/* <label htmlFor="fullname" className="text-sm">
                   Full Name
                 </label> */}
-                <FaUserCircle className="text-[18px]"/>
+                <FaUserCircle className="text-[18px] text-[#000]"/>
                 <input
                   className="w-[90%] p-2 rounded-sm outline-none"
                   type="text"
@@ -105,7 +105,7 @@ const HomeContact = () => {
                 {/* <label htmlFor="mobile" className="text-sm">
                   Mobile Number
                 </label> */}
-                <FaPhone className="text-[18px]"/>
+                <FaPhone className="text-[18px] text-[#000]"/>
                 <input
                   className="w-[90%] p-2 rounded-sm outline-none"
                   type="tel"
@@ -123,7 +123,7 @@ const HomeContact = () => {
                 {/* <label htmlFor="email" className="text-sm">
                   Email ID
                 </label> */}
-                <MdEmail className="text-[18px]"/>
+                <MdEmail className="text-[18px] text-[#000]"/>
                 <input
                   className="w-[90%] p-2 rounded-sm outline-none"
                   type="email"

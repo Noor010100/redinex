@@ -15,27 +15,27 @@ const Page = () => {
             <u>Our Strengths</u>
           </p>
           <div className="flex flex-col gap-2 md:mt-2 max-md:mt-4">
-            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4">
+            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4 max-md:py-2">
               <AiOutlineDoubleRight className="max-md:w-[10%] md:text-[20px] max-md:text-[16px]"/>
-              <p className="md:text-[18px] max-md:text-[14px] text-[#545454] ">
+              <p className="md:text-[18px] max-md:text-[14px] text-[#545454]">
                 With innovative ideas and quality products, we always strive to
                 achieve excellence in all our projects.
               </p>
             </div>
-            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4">
+            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4 max-md:py-2">
               <AiOutlineDoubleRight className="max-md:w-[10%] md:text-[20px] max-md:text-[16px]" />
               <p className="md:text-[18px] max-md:text-[14px] text-[#545454] ">
                 Teamwork is the core reason for the success of any project and
                 our satisfied customer list. We support and respect each other.
               </p>
             </div>
-            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4">
+            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4 max-md:py-2">
               <AiOutlineDoubleRight className="max-md:w-[10%] md:text-[20px] max-md:text-[16px]" />
               <p className="md:text-[18px] max-md:text-[14px] text-[#545454] ">
               We have built a legacy of excellence with dedication and commitment, and we remain steadfast in upholding it without compromise.
               </p>
             </div>
-            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4">
+            <div className="w-full flex items-center gap-2 md:py-2 md:px-2 bg-slate-200 max-md:px-4 max-md:py-2">
               <AiOutlineDoubleRight className="max-md:w-[10%] md:text-[20px] max-md:text-[16px]" />
               <p className="md:text-[18px] max-md:text-[14px] text-[#545454] ">
                 Delivery of any project on time is of utmost priority to REDINEX
@@ -48,9 +48,9 @@ const Page = () => {
         <div className="md:mt-6 max-md:mt-4 grid md:grid-cols-3 max-md:grid-rows-3 md:gap-2 ">
           <div className="flex flex-col justify-center items-center text-center gap-2  py-4 px-6">
           <div className="bg-[#fab731] md:h-[130px] max-md:h-[100px] md:w-[130px] max-md:w-[100px] rounded-full flex justify-center items-center">
-          <GrUserWorker className="md:text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
+          <GrUserWorker className="text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
             </div>
-            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#000]">
+            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#00215b]">
               <u>Vision</u>
             </p>
             <p className="font-[500] md:text-[16px] max-md:text-[14px] max-md:text-center text-[#000]">
@@ -63,9 +63,9 @@ const Page = () => {
           </div>
           <div className="flex flex-col justify-center items-center text-center gap-2 py-4 px-6">
             <div className="bg-[#fab731] md:h-[130px] max-md:h-[100px] md:w-[130px] max-md:w-[100px] rounded-full flex justify-center items-center">
-          <GrUserWorker className="md:text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
+          <GrUserWorker className="text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
             </div>
-            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#000]">
+            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#00215b]">
               <u>Mission</u>
             </p>
             <p className="font-[500] md:text-[16px] max-md:text-[14px] max-md:text-center text-[#000]">
@@ -78,9 +78,9 @@ const Page = () => {
           </div>
           <div className="flex flex-col justify-center items-center text-center gap-2 py-4 px-6">
           <div className="bg-[#fab731] md:h-[130px] max-md:h-[100px] md:w-[130px] max-md:w-[100px] rounded-full flex justify-center items-center">
-          <GrUserWorker className="md:text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
+          <GrUserWorker className="text-[#00215b] md:text-[60px] max-md:text-[40px]"/>
             </div>
-            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#000]">
+            <p className="font-[600] md:text-[30px] max-md:text-[20px] max-md:text-center text-[#00215b]">
               <u>Goal</u>
             </p>
             <p className="font-[500] md:text-[16px] max-md:text-[14px] max-md:text-center text-[#000]">
