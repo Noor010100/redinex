@@ -64,7 +64,7 @@ const HomeService = () => {
                             </div>
                             <div className="">
 
-                                <p className="md:text-[20px] md:h-[52px] max-md:text-[16px] font-[500] text-[#00171F] my-2 text-center">
+                                <p className="md:text-[20px] md:h-[52px] max-md:text-[16px] font-[500] text-[#00171F] my-2 text-center max-md:h-[40%]">
                                     {ele.name}
                                 </p>
                                 {/* <div className="text-gray-500 md:text-[16px] max-md:text-[16px] md:mb-1 max-md:mb-2">{ele.det}</div> */}
