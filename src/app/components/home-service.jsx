@@ -49,11 +49,11 @@ const HomeService = () => {
                     What we provide
                 </p>
             </div>
-            <div className='grid md:grid-cols-4 max-md:grid-cols-2 md:gap-x-4 md:gap-y-8 max-md:gap-2 max-md:gap-y-4 md:my-4 max-md:my-2 '>
+            <div className='grid md:grid-cols-4 max-md:grid-cols-2 md:gap-x-4 md:gap-y-8 max-md:gap-2 max-md:gap-y-4 md:my-4 max-md:my-2'>
                 {
                     pack.slice(0, isStat).map((ele, i) => (
                         <Link href={'/services'}>
-                        <div key={i} className="bg-white max-md:mx-auto rounded-lg shadow-lg md:p-4 max-md:p-2 max-w-sm max-md:w-full">
+                        <div key={i} className="bg-white h-full max-md:mx-auto rounded-lg shadow-lg md:p-4 max-md:p-2 max-w-sm max-md:w-full">
                             <div className="relative md:h-48 max-md:h-[20vh] w-full rounded-lg overflow-hidden">
                                 <Image
                                     alt='No Preview'
